@@ -10,7 +10,15 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        CustomTabBar(viewRouter: ViewRouter())
+        NavigationView{
+            VStack{
+                Login()
+            }
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
+        }
+       
+//        CustomTabBar(viewRouter: ViewRouter())
     }
 }
 

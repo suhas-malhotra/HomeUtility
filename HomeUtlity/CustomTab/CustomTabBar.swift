@@ -57,7 +57,8 @@ struct CustomTabBar: View {
                 .shadow(radius: 2)
             }//: VSTACK
             .edgesIgnoringSafeArea(.bottom)
-           
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }//: GEOMETRY READER
     }
 }

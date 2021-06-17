@@ -17,7 +17,7 @@ struct HomePage: View {
                         HStack {
                             VStack(alignment: .leading , spacing:10) {
                                 Text("Hello Suhas")
-                                    .font(.title)
+                                    .font(.system(size: 40))
                                     .fontWeight(.bold)
                                 Text("Welcome to your Home")
                             }//: VSTACK

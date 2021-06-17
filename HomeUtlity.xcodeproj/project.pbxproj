@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF9BD5BD267BE44900971109 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD5BC267BE44900971109 /* Login.swift */; };
+		EF9BD5BF267BE5D900971109 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD5BE267BE5D900971109 /* LoginViewModel.swift */; };
+		EF9BD5C1267BEA2200971109 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD5C0267BEA2200971109 /* Countries.swift */; };
 		EFB3EE78267A3E73003BDA1C /* HomeUtlityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */; };
 		EFB3EE7A267A3E73003BDA1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE79267A3E73003BDA1C /* ContentView.swift */; };
 		EFB3EE7F267A3E73003BDA1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3EE7E267A3E73003BDA1C /* Preview Assets.xcassets */; };
@@ -26,6 +29,9 @@
 		EFB3EECA267AB2F1003BDA1C /* PolicyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEC9267AB2F1003BDA1C /* PolicyPage.swift */; };
 		EFB3EECE267AB534003BDA1C /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EECD267AB534003BDA1C /* AddReminderView.swift */; };
 		EFB3EED0267AB543003BDA1C /* AddReminderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EECF267AB543003BDA1C /* AddReminderPage.swift */; };
+		EFF4121C267BF5B100D1B2B6 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4121B267BF5B100D1B2B6 /* Verification.swift */; };
+		EFF4121E267BFE9900D1B2B6 /* CustomNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4121D267BFE9900D1B2B6 /* CustomNumberPad.swift */; };
+		EFF41220267C079700D1B2B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFF4121F267C079700D1B2B6 /* GoogleService-Info.plist */; };
 		EFF75A47267B733D00B470DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF75A46267B733D00B470DC /* Assets.xcassets */; };
 		EFF75A49267B736D00B470DC /* MoneyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF75A48267B736D00B470DC /* MoneyCard.swift */; };
 		EFF75A4F267B7BD600B470DC /* MoneyCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF75A4E267B7BD600B470DC /* MoneyCardPage.swift */; };
@@ -51,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF9BD5BC267BE44900971109 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		EF9BD5BE267BE5D900971109 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EF9BD5C0267BEA2200971109 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		EFB3EE74267A3E73003BDA1C /* HomeUtlity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeUtlity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUtlityApp.swift; sourceTree = "<group>"; };
 		EFB3EE79267A3E73003BDA1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +85,9 @@
 		EFB3EEC9267AB2F1003BDA1C /* PolicyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyPage.swift; sourceTree = "<group>"; };
 		EFB3EECD267AB534003BDA1C /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		EFB3EECF267AB543003BDA1C /* AddReminderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderPage.swift; sourceTree = "<group>"; };
+		EFF4121B267BF5B100D1B2B6 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		EFF4121D267BFE9900D1B2B6 /* CustomNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberPad.swift; sourceTree = "<group>"; };
+		EFF4121F267C079700D1B2B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EFF75A46267B733D00B470DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		EFF75A48267B736D00B470DC /* MoneyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCard.swift; sourceTree = "<group>"; };
 		EFF75A4E267B7BD600B470DC /* MoneyCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCardPage.swift; sourceTree = "<group>"; };
@@ -108,6 +120,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF9BD5BB267BE42100971109 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BD5BC267BE44900971109 /* Login.swift */,
+				EF9BD5BE267BE5D900971109 /* LoginViewModel.swift */,
+				EF9BD5C0267BEA2200971109 /* Countries.swift */,
+				EFF4121B267BF5B100D1B2B6 /* Verification.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
 		EFB3EE6B267A3E73003BDA1C = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +154,8 @@
 		EFB3EE76267A3E73003BDA1C /* HomeUtlity */ = {
 			isa = PBXGroup;
 			children = (
+				EFF4121F267C079700D1B2B6 /* GoogleService-Info.plist */,
+				EF9BD5BB267BE42100971109 /* Verification */,
 				EFF75A41267B6BB500B470DC /* MoneyCards */,
 				EFB3EECB267AB4F1003BDA1C /* AddReminder */,
 				EFB3EEC6267AB1BA003BDA1C /* Policy */,
@@ -146,6 +171,7 @@
 				EFB3EE80267A3E73003BDA1C /* Info.plist */,
 				EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */,
 				EFB3EE7D267A3E73003BDA1C /* Preview Content */,
+				EFF4121D267BFE9900D1B2B6 /* CustomNumberPad.swift */,
 			);
 			path = HomeUtlity;
 			sourceTree = "<group>";
@@ -365,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB3EEA3267A3F79003BDA1C /* Launch Screen.storyboard in Resources */,
+				EFF41220267C079700D1B2B6 /* GoogleService-Info.plist in Resources */,
 				EFF75A47267B733D00B470DC /* Assets.xcassets in Resources */,
 				EFB3EE7F267A3E73003BDA1C /* Preview Assets.xcassets in Resources */,
 			);
@@ -399,15 +426,20 @@
 				EFF75A56267B92D900B470DC /* MoneyCardView.swift in Sources */,
 				EFB3EEAD267A72FE003BDA1C /* CustomTabBar.swift in Sources */,
 				EFB3EEA9267A5F43003BDA1C /* ViewRouter.swift in Sources */,
+				EF9BD5BF267BE5D900971109 /* LoginViewModel.swift in Sources */,
 				EFB3EECA267AB2F1003BDA1C /* PolicyPage.swift in Sources */,
 				EFB3EEC0267AB095003BDA1C /* WarrantyCardPage.swift in Sources */,
 				EFB3EECE267AB534003BDA1C /* AddReminderView.swift in Sources */,
 				EFB3EE7A267A3E73003BDA1C /* ContentView.swift in Sources */,
 				EFB3EEB8267AA94A003BDA1C /* FamilyMemberView.swift in Sources */,
+				EF9BD5BD267BE44900971109 /* Login.swift in Sources */,
 				EFF75A49267B736D00B470DC /* MoneyCard.swift in Sources */,
+				EFF4121C267BF5B100D1B2B6 /* Verification.swift in Sources */,
 				EFB3EED0267AB543003BDA1C /* AddReminderPage.swift in Sources */,
 				EFB3EEBC267AAA5B003BDA1C /* WarrantyCardView.swift in Sources */,
 				EFB3EEC8267AB1CB003BDA1C /* PolicyView.swift in Sources */,
+				EF9BD5C1267BEA2200971109 /* Countries.swift in Sources */,
+				EFF4121E267BFE9900D1B2B6 /* CustomNumberPad.swift in Sources */,
 				EFB3EE78267A3E73003BDA1C /* HomeUtlityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -575,7 +607,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtlity;
+				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -597,7 +629,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtlity;
+				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
