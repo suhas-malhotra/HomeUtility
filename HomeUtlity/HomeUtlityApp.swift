@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct HomeUtlityApp: App {
+    @StateObject var viewRouter = ViewRouter()
     var body: some Scene {
         WindowGroup {
             ContentView()

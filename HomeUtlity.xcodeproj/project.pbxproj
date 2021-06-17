@@ -3,16 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EFB3EE78267A3E73003BDA1C /* HomeUtlityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */; };
 		EFB3EE7A267A3E73003BDA1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE79267A3E73003BDA1C /* ContentView.swift */; };
-		EFB3EE7C267A3E73003BDA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3EE7B267A3E73003BDA1C /* Assets.xcassets */; };
 		EFB3EE7F267A3E73003BDA1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3EE7E267A3E73003BDA1C /* Preview Assets.xcassets */; };
 		EFB3EE8A267A3E74003BDA1C /* HomeUtlityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE89267A3E74003BDA1C /* HomeUtlityTests.swift */; };
 		EFB3EE95267A3E74003BDA1C /* HomeUtlityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EE94267A3E74003BDA1C /* HomeUtlityUITests.swift */; };
+		EFB3EEA3267A3F79003BDA1C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB3EEA2267A3F79003BDA1C /* Launch Screen.storyboard */; };
+		EFB3EEA9267A5F43003BDA1C /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEA8267A5F43003BDA1C /* ViewRouter.swift */; };
+		EFB3EEAD267A72FE003BDA1C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEAC267A72FE003BDA1C /* CustomTabBar.swift */; };
+		EFB3EEAF267A9825003BDA1C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEAE267A9825003BDA1C /* HomePage.swift */; };
+		EFB3EEB1267A9D8B003BDA1C /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEB0267A9D8B003BDA1C /* ProfilePage.swift */; };
+		EFB3EEB3267AA414003BDA1C /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEB2267AA414003BDA1C /* ReminderView.swift */; };
+		EFB3EEB8267AA94A003BDA1C /* FamilyMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEB7267AA94A003BDA1C /* FamilyMemberView.swift */; };
+		EFB3EEBC267AAA5B003BDA1C /* WarrantyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEBB267AAA5B003BDA1C /* WarrantyCardView.swift */; };
+		EFB3EEBE267AB029003BDA1C /* FamilyMemberPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEBD267AB029003BDA1C /* FamilyMemberPage.swift */; };
+		EFB3EEC0267AB095003BDA1C /* WarrantyCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEBF267AB095003BDA1C /* WarrantyCardPage.swift */; };
+		EFB3EEC8267AB1CB003BDA1C /* PolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEC7267AB1CB003BDA1C /* PolicyView.swift */; };
+		EFB3EECA267AB2F1003BDA1C /* PolicyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EEC9267AB2F1003BDA1C /* PolicyPage.swift */; };
+		EFB3EECE267AB534003BDA1C /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EECD267AB534003BDA1C /* AddReminderView.swift */; };
+		EFB3EED0267AB543003BDA1C /* AddReminderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3EECF267AB543003BDA1C /* AddReminderPage.swift */; };
+		EFF75A47267B733D00B470DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF75A46267B733D00B470DC /* Assets.xcassets */; };
+		EFF75A49267B736D00B470DC /* MoneyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF75A48267B736D00B470DC /* MoneyCard.swift */; };
+		EFF75A4F267B7BD600B470DC /* MoneyCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF75A4E267B7BD600B470DC /* MoneyCardPage.swift */; };
+		EFF75A52267B8F9300B470DC /* CreditCardScanner in Frameworks */ = {isa = PBXBuildFile; productRef = EFF75A51267B8F9300B470DC /* CreditCardScanner */; };
+		EFF75A56267B92D900B470DC /* MoneyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF75A55267B92D900B470DC /* MoneyCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,6 @@
 		EFB3EE74267A3E73003BDA1C /* HomeUtlity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeUtlity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUtlityApp.swift; sourceTree = "<group>"; };
 		EFB3EE79267A3E73003BDA1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EFB3EE7B267A3E73003BDA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB3EE7E267A3E73003BDA1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFB3EE80267A3E73003BDA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB3EE85267A3E74003BDA1C /* HomeUtlityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeUtlityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +62,24 @@
 		EFB3EE90267A3E74003BDA1C /* HomeUtlityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeUtlityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB3EE94267A3E74003BDA1C /* HomeUtlityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUtlityUITests.swift; sourceTree = "<group>"; };
 		EFB3EE96267A3E74003BDA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB3EEA2267A3F79003BDA1C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EFB3EEA8267A5F43003BDA1C /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		EFB3EEAC267A72FE003BDA1C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		EFB3EEAE267A9825003BDA1C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		EFB3EEB0267A9D8B003BDA1C /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		EFB3EEB2267AA414003BDA1C /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		EFB3EEB7267AA94A003BDA1C /* FamilyMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberView.swift; sourceTree = "<group>"; };
+		EFB3EEBB267AAA5B003BDA1C /* WarrantyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCardView.swift; sourceTree = "<group>"; };
+		EFB3EEBD267AB029003BDA1C /* FamilyMemberPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberPage.swift; sourceTree = "<group>"; };
+		EFB3EEBF267AB095003BDA1C /* WarrantyCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyCardPage.swift; sourceTree = "<group>"; };
+		EFB3EEC7267AB1CB003BDA1C /* PolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyView.swift; sourceTree = "<group>"; };
+		EFB3EEC9267AB2F1003BDA1C /* PolicyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyPage.swift; sourceTree = "<group>"; };
+		EFB3EECD267AB534003BDA1C /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		EFB3EECF267AB543003BDA1C /* AddReminderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderPage.swift; sourceTree = "<group>"; };
+		EFF75A46267B733D00B470DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		EFF75A48267B736D00B470DC /* MoneyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCard.swift; sourceTree = "<group>"; };
+		EFF75A4E267B7BD600B470DC /* MoneyCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCardPage.swift; sourceTree = "<group>"; };
+		EFF75A55267B92D900B470DC /* MoneyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF75A52267B8F9300B470DC /* CreditCardScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +131,20 @@
 		EFB3EE76267A3E73003BDA1C /* HomeUtlity */ = {
 			isa = PBXGroup;
 			children = (
-				EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */,
+				EFF75A41267B6BB500B470DC /* MoneyCards */,
+				EFB3EECB267AB4F1003BDA1C /* AddReminder */,
+				EFB3EEC6267AB1BA003BDA1C /* Policy */,
+				EFB3EEA7267A5F30003BDA1C /* CustomTab */,
+				EFB3EEC4267AB105003BDA1C /* Home */,
+				EFB3EEC3267AB0ED003BDA1C /* Profile */,
+				EFB3EEC5267AB123003BDA1C /* Reminder */,
+				EFB3EEC1267AB0C2003BDA1C /* FamilyMember */,
+				EFB3EEC2267AB0D3003BDA1C /* WarrantyCard */,
 				EFB3EE79267A3E73003BDA1C /* ContentView.swift */,
-				EFB3EE7B267A3E73003BDA1C /* Assets.xcassets */,
+				EFF75A46267B733D00B470DC /* Assets.xcassets */,
+				EFB3EEA2267A3F79003BDA1C /* Launch Screen.storyboard */,
 				EFB3EE80267A3E73003BDA1C /* Info.plist */,
+				EFB3EE77267A3E73003BDA1C /* HomeUtlityApp.swift */,
 				EFB3EE7D267A3E73003BDA1C /* Preview Content */,
 			);
 			path = HomeUtlity;
@@ -130,6 +176,85 @@
 			path = HomeUtlityUITests;
 			sourceTree = "<group>";
 		};
+		EFB3EEA7267A5F30003BDA1C /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEA8267A5F43003BDA1C /* ViewRouter.swift */,
+				EFB3EEAC267A72FE003BDA1C /* CustomTabBar.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		EFB3EEC1267AB0C2003BDA1C /* FamilyMember */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEB7267AA94A003BDA1C /* FamilyMemberView.swift */,
+				EFB3EEBD267AB029003BDA1C /* FamilyMemberPage.swift */,
+			);
+			path = FamilyMember;
+			sourceTree = "<group>";
+		};
+		EFB3EEC2267AB0D3003BDA1C /* WarrantyCard */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEBB267AAA5B003BDA1C /* WarrantyCardView.swift */,
+				EFB3EEBF267AB095003BDA1C /* WarrantyCardPage.swift */,
+			);
+			path = WarrantyCard;
+			sourceTree = "<group>";
+		};
+		EFB3EEC3267AB0ED003BDA1C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEB0267A9D8B003BDA1C /* ProfilePage.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EFB3EEC4267AB105003BDA1C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEAE267A9825003BDA1C /* HomePage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFB3EEC5267AB123003BDA1C /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEB2267AA414003BDA1C /* ReminderView.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		EFB3EEC6267AB1BA003BDA1C /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EEC7267AB1CB003BDA1C /* PolicyView.swift */,
+				EFB3EEC9267AB2F1003BDA1C /* PolicyPage.swift */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		EFB3EECB267AB4F1003BDA1C /* AddReminder */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3EECD267AB534003BDA1C /* AddReminderView.swift */,
+				EFB3EECF267AB543003BDA1C /* AddReminderPage.swift */,
+			);
+			path = AddReminder;
+			sourceTree = "<group>";
+		};
+		EFF75A41267B6BB500B470DC /* MoneyCards */ = {
+			isa = PBXGroup;
+			children = (
+				EFF75A48267B736D00B470DC /* MoneyCard.swift */,
+				EFF75A4E267B7BD600B470DC /* MoneyCardPage.swift */,
+				EFF75A55267B92D900B470DC /* MoneyCardView.swift */,
+			);
+			path = MoneyCards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +271,9 @@
 			dependencies = (
 			);
 			name = HomeUtlity;
+			packageProductDependencies = (
+				EFF75A51267B8F9300B470DC /* CreditCardScanner */,
+			);
 			productName = HomeUtlity;
 			productReference = EFB3EE74267A3E73003BDA1C /* HomeUtlity.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +345,9 @@
 				Base,
 			);
 			mainGroup = EFB3EE6B267A3E73003BDA1C;
+			packageReferences = (
+				EFF75A50267B8F9300B470DC /* XCRemoteSwiftPackageReference "credit-card-scanner" */,
+			);
 			productRefGroup = EFB3EE75267A3E73003BDA1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +364,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB3EEA3267A3F79003BDA1C /* Launch Screen.storyboard in Resources */,
+				EFF75A47267B733D00B470DC /* Assets.xcassets in Resources */,
 				EFB3EE7F267A3E73003BDA1C /* Preview Assets.xcassets in Resources */,
-				EFB3EE7C267A3E73003BDA1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +391,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB3EEBE267AB029003BDA1C /* FamilyMemberPage.swift in Sources */,
+				EFF75A4F267B7BD600B470DC /* MoneyCardPage.swift in Sources */,
+				EFB3EEB1267A9D8B003BDA1C /* ProfilePage.swift in Sources */,
+				EFB3EEB3267AA414003BDA1C /* ReminderView.swift in Sources */,
+				EFB3EEAF267A9825003BDA1C /* HomePage.swift in Sources */,
+				EFF75A56267B92D900B470DC /* MoneyCardView.swift in Sources */,
+				EFB3EEAD267A72FE003BDA1C /* CustomTabBar.swift in Sources */,
+				EFB3EEA9267A5F43003BDA1C /* ViewRouter.swift in Sources */,
+				EFB3EECA267AB2F1003BDA1C /* PolicyPage.swift in Sources */,
+				EFB3EEC0267AB095003BDA1C /* WarrantyCardPage.swift in Sources */,
+				EFB3EECE267AB534003BDA1C /* AddReminderView.swift in Sources */,
 				EFB3EE7A267A3E73003BDA1C /* ContentView.swift in Sources */,
+				EFB3EEB8267AA94A003BDA1C /* FamilyMemberView.swift in Sources */,
+				EFF75A49267B736D00B470DC /* MoneyCard.swift in Sources */,
+				EFB3EED0267AB543003BDA1C /* AddReminderPage.swift in Sources */,
+				EFB3EEBC267AAA5B003BDA1C /* WarrantyCardView.swift in Sources */,
+				EFB3EEC8267AB1CB003BDA1C /* PolicyView.swift in Sources */,
 				EFB3EE78267A3E73003BDA1C /* HomeUtlityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +578,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtlity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +600,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = suhasMalhotra.HomeUtlity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -580,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFF75A50267B8F9300B470DC /* XCRemoteSwiftPackageReference "credit-card-scanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yhkaplan/credit-card-scanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFF75A51267B8F9300B470DC /* CreditCardScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFF75A50267B8F9300B470DC /* XCRemoteSwiftPackageReference "credit-card-scanner" */;
+			productName = CreditCardScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFB3EE6C267A3E73003BDA1C /* Project object */;
 }
