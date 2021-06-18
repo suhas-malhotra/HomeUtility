@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct HomePage: View {
     @State private  var notification = false
+    @AppStorage("log_Status") var status = false
     var body: some View {
         NavigationView{
             GeometryReader{ geometry in
@@ -39,14 +41,10 @@ struct HomePage: View {
                               
                             })//: NAVIGATION LINK
                             .padding(.horizontal,10)
-                            Button(action:{
-                                if notification == true{
-                                    notification = false
-                                }
-                                else {
-                                    notification = true
-                                }
-                            }){
+                            Button(action: {
+                                try? Auth.auth().signOut()
+                                withAnimation{status = false}
+                            },label:{
                                 ZStack{
                                     Circle()
                                         .foregroundColor(.white)
@@ -67,10 +65,8 @@ struct HomePage: View {
                                             .offset(y:-2)
                                             .foregroundColor(.black)
                                     }
-                                   
                                 }//: ZSTACK
-                               
-                            }//: BUTTON
+                            })//: BUTTON
                            
                         }//: HSTACK
                         .padding()

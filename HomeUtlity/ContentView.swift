@@ -8,24 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @AppStorage("log_Status") var status = false
     var body: some View {
-        NavigationView{
-            VStack{
-                Login()
+        ZStack{
+            if status{
+                CustomTabBar(viewRouter: ViewRouter())
+            } else {
+                NavigationView{
+                        VStack{
+                            Login()
+                        }//: VSTACK
+                        .navigationBarHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                }//: NAVIGATION VIEW
             }
-            .navigationBarHidden(true)
-            .navigationBarBackButtonHidden(true)
-        }
-       
-//        CustomTabBar(viewRouter: ViewRouter())
+        }//: ZSTACK
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-    ContentView()
-            .preferredColorScheme(.light)
-    }
-}
 
